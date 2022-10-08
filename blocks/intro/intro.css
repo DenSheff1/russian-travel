@@ -1,0 +1,28 @@
+.intro {
+  max-width: 690px;
+  color: #fff;
+  margin-left: calc((100% - 984px)/2);
+  margin-bottom: 92px;
+}
+
+@media (max-width: 1024px) {
+  .intro {
+    margin-left: calc((100% - 928px)/2);
+  }
+}
+
+@media (max-width: 928px) {
+  .intro {
+    margin-left: 24px;
+    margin-bottom: 88px;
+  }
+}
+
+@media (max-width: 480px) {
+  .intro {
+    margin-left: 16px;
+    margin-bottom: 64px;
+  }
+}
+
+

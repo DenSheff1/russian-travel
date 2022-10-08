@@ -1,0 +1,27 @@
+.header {
+  height: 52px;
+  margin: 0 48px 56px 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+@media (max-width: 1024px) {
+  .header {
+    margin-bottom: 48px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    height: 52px;
+    margin: 0 24px 48px 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .header {
+    height: 42px;
+    margin: 0 16px 48px 16px;
+  }
+}
