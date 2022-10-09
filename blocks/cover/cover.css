@@ -1,15 +1,6 @@
 .cover {
   max-width: 1184px;
   margin: 0 auto 92px auto;
-  display: grid;
-  grid-template-columns: 1fr 560px 1fr;
-  grid-template-rows: calc(1fr - 32px) 1fr;
-  row-gap: 32px;
-  color: #fff;
-}
-
-.cover:hover .cover__overlay {
-  opacity: 0.8;
 }
 
 @media (max-width: 768px) {
@@ -18,18 +9,9 @@
   }
 }
 
-@media (max-width: 685px) {
-  .cover {
-    grid-template-columns: 1fr 320px 1fr;
-    grid-template-rows: calc(1fr - 16px) 1fr;
-    row-gap: 16px;
-  }
-}
-
 @media (max-width: 320px) {
   .cover {
     margin-bottom: 64px;
-    grid-template-columns: 1fr 288px 1fr;
   }
 }
 

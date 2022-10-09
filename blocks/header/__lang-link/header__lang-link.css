@@ -1,5 +1,4 @@
 .header__lang-link {
-  margin-right: 18px;
   color: #fff;
   font-weight: 400;
   font-size: 24px;
@@ -7,10 +6,6 @@
   text-decoration: none;
   text-underline-offset: 5px;
   cursor: pointer;
-}
-
-.header__lang-link:last-of-type {
-  margin-right: 0;
 }
 
 @media (max-width: 420px) {

@@ -1,9 +1,10 @@
 .header__lang-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  column-gap: 18px;
   margin-bottom: 5px;
 }
 
-@media (max-width: 480px) {
-  .header__lang-links {
-    margin-bottom: 7px;
-  }
-}
+
